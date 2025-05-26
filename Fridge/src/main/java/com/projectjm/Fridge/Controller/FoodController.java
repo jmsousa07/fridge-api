@@ -1,4 +1,4 @@
-package com.projectjm.Fridge.Crontroller;
+package com.projectjm.Fridge.Controller;
 
 import com.projectjm.Fridge.Model.Food;
 import com.projectjm.Fridge.Service.FoodService;
@@ -22,4 +22,7 @@ public class FoodController {
 
     @PostMapping
     public Food create(@RequestBody Food food) { return foodService.save(food); }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable Long id) { foodService.delete(id); }
 }

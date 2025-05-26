@@ -12,7 +12,7 @@
 	<artifactId>Fridge</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Fridge</name>
-	<description>Um freezer para guardar comida</description>
+	<description>Uma API de um freezer para guardar comida</description>
 	<url/>
 	<licenses>
 		<license/>
